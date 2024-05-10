@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    /* font-family: "Poppins", sans-serif;
+    font-family: "Jaro", sans-serif; 
+    font-family: "Abril Fatface", serif; */
+    background: #f3f3f1;
+}
+nav{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.logo img{
+    width: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+.menu_box ul li a{
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    padding: 32px 15px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Jaro", sans-serif;
+    color: #446c26;
+}
+.menu_box ul li a:hover {
+    background: #446c26;
+    color: white;
+}
+.donate_menu{
+    background: tomato;
+    color: white!important;
+}
+.donate_menu:hover{
+    background: rgb(160, 63, 46)!important;
+}
+/* Ending nav part */
+header{
+    padding: 500px 0 0 0;
+    background: url(../img/banner.jpg) center no-repeat;
+    background-size: cover;
+}
+.header_section{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header_section h1{
+    text-transform: uppercase;
+    display: inline-block;
+    background: #ffffff8c;
+    padding: 50px 30px 15px 30px;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: "Jaro", sans-serif;
+}
+/* end of header */
+.donation_section{
+    background: #446c26;
+    padding: 30px 0;
+}
+.donation_main{
+    width: 1280px;
+    margin: 0px auto;
+}
+.form_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donation_box form select, .donation_box form input, .donation_box form button{
+    border-style: none;
+    padding: 20px 30px;
+    font-family: "Poppins", sans-serif;
+}
+.donation_box form button{
+    background: tomato;
+    color: white;
+    cursor: pointer;
+}
+/* end of donation form */
+.current_section{
+    padding: 100px 0;
+}
+.current_main{
+    width: 1280px;
+    margin: 0 auto;
+}
+.current_head h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+.current_head h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    font-weight: 300;
+}
+.current_head p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    width: 70%;
+}
+.current_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.current_conetnt_box{
+    display: flex;
+    background: white;
+    margin: 0 5px 5px 0;
+}
+.current_content_img{
+    height: 230px;
+    width: 350px !important;
+    overflow: hidden;
+    text-align: center;
+}
+.content_img_1{
+    background: url(../img/content1.jpeg) center no-repeat;
+    background-size: cover;
+}
+.content_img_2{
+    background: url(../img/content2.jpg) center no-repeat;
+    background-size: cover;
+}
+.content_img_3{
+    background: url(../img/content3.jpg) center no-repeat;
+    background-size: cover;
+}
+.content_img_4{
+    background: url(../img/content4.jpg) center no-repeat;
+    background-size: cover;
+}
+.content_img_5{
+    background: url(../img/content5.png) center no-repeat;
+    background-size: cover;
+}
+.content_img_6{
+    background: url(../img/content6.jpg) center no-repeat;
+    background-size: cover;
+}
+.content_img_7{
+    background: url(../img/content7.png) center no-repeat;
+    background-size: cover;
+}
+.content_img_8{
+    background: url(../img/content8.jpg) center no-repeat;
+    background-size: cover;
+}
+.current_content_texts{
+    width: 80%;
+    padding: 20px 30px;
+}
+.current_content_texts h3{
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #446c26;
+}
+.current_content_texts p{    
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+/* end of current */
+.sodakatun{
+    padding: 0 0 100px 0;
+}
+.sodakatun_main{
+    width: 1280px;
+    margin: 0 auto;
+}
+.sodakatun_title {
+    text-align: center;
+}
+.sodakatun_title h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif; 
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.sodakatun_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+.sodakatun_card_box{
+    background: #e9eaee;
+    text-align: center;
+}
+.sodakatun_card_box img{
+    width: 100%;
+}
+.sodakatun_card_box h4{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 20px 0 0px 0;
+    text-transform: capitalize;
+}
+.sodakatun_card_box p{
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+/* end of sodakatun */
+.poverty_section{
+    padding: 200px 0 100px 0;
+    background: url(../img/poor.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.poverty_section::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000060;
+    z-index: -1;
+}
+.poverty_main{
+    width: 1280px;
+    margin: 0 auto;
+    color: white;
+}
+.poverty_main h5{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.poverty_main h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif;
+    font-weight: 300;
+    width: 50%;
+}
+.poverty_donation{
+    background: #f3f3f1;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 30px 25px;
+    margin-top: 30px;
+}
+.proverty_donation_box{
+    flex-direction: column!important;
+}
+/* end of proverty section */
+footer{
+    background: white;
+}
+.footer_main{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.social_icons i{
+    font-size: 30px;
+    margin-right: 25px;
+}
+.footer_menu{
+    margin-top: 20px;
+}
+.footer_menu ul li a{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-right: 30px;
+    color: #446c26;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.footer_menu ul li a:hover{
+    color: #273d16;
+}
+.footer_rights h5{
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer_menu_2 ul li a{
+    font-size: 12px;
+}
+.footer_charity_logo{
+    text-align: right;
+}
+.footer_charity_logo img{
+    width: 40%;
+}
